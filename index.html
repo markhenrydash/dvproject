@@ -481,7 +481,7 @@
        var div6 = document.createElement("div");
        var div7 = document.createElement("div");
 
-       console.log("Name of image " +nameCounty);
+       //console.log("Name of image " +nameCounty);
 
        div1.setAttribute("class","col");
        div2.setAttribute("class","card border-left-success shadow h-100 py-2");
@@ -492,6 +492,9 @@
        div7.setAttribute("class","h5 mb-0 font-weight-bold text-gray-800");
 
        var div6Text = document.createTextNode(findings[nameCounty][i]);
+
+       console.log("Name of image " +findings[nameCounty][i]);
+
        var div7Text = document.createTextNode("$215,000");
 
        div6.appendChild(div6Text);

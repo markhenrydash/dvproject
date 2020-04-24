@@ -495,6 +495,8 @@
 
        console.log("Name of image " +  dict_pictures[findings[nameCounty][i]] );
 
+
+
        var div7Text = document.createTextNode("$215,000");
 
        div6.appendChild(div6Text);
@@ -506,8 +508,9 @@
       //   var bNode = document.createElement('br');
       //   var cNode = document.createElement('center');
 
+      imageurl = dict_pictures[findings[nameCounty][i]]
 
-      iconurl = "js_zip/cactus.jpeg";
+      iconurl = "js_zip/" + imageurl + ".jpg";
 
       img.src=iconurl;
       img.width=120;

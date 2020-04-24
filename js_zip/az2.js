@@ -17,3 +17,12 @@ var statesData = {"type":"Topology","transform":{"scale":[0.0017670553225065367,
 
 
 var findings = {'cochise': [], 'maricopa': [], 'coconino': ['Eschscholzia californica subsp. mexicana'], 'yavapai': [], 'yuma': ['Boerhavia coccinea', 'Linum lewisii'], 'santa cruz': ['Larrea tridentata'], 'la paz': [], 'greenlee': ['Acourtia wrightii', 'Boerhavia coccinea', 'Heteropogon contortus'], 'pinal': ['Aquilegia chrysantha'], 'graham': [], 'apache': ['Eriastrum diffusum', 'Heteropogon contortus'], 'navajo': [], 'pima': [], 'gila': [], 'mohave': []};
+
+var dict_pictures = {'Acourtia wrightii': 'Acourtia-wrightii',
+ 'Aquilegia chrysantha': 'Aquilegia-chrysantha',
+ 'Boerhavia coccinea': 'Boerhavia-coccinea',
+ 'Eriastrum diffusum': 'Eriastrum-diffusum',
+ 'Eschscholzia californica subsp. mexicana': 'Eschscholzia-californica',
+ 'Heteropogon contortus': 'Heteropogon-contortus',
+ 'Larrea tridentata': 'Larrea-tridentata',
+ 'Linum lewisii': 'Linum-lewisii'};

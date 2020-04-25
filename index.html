@@ -1,3 +1,11 @@
+<!--
+/*!
+ * Start Bootstrap - SB Admin 2 v4.0.7 (https://startbootstrap.com/template-overviews/sb-admin-2)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/blob/master/LICENSE)
+ */
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -95,84 +103,7 @@
       <!-- Divider -->
       <hr class="sidebar-divider">
 
-      <!-- Heading -->
-      <div class="sidebar-heading">
-        Interface
-      </div>
 
-      <!-- Nav Item - Pages Collapse Menu -->
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-          <i class="fas fa-fw fa-cog"></i>
-          <span>Components</span>
-        </a>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Custom Components:</h6>
-            <a class="collapse-item" href="buttons.html">Buttons</a>
-            <a class="collapse-item" href="cards.html">Cards</a>
-          </div>
-        </div>
-      </li>
-
-      <!-- Nav Item - Utilities Collapse Menu -->
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
-          <i class="fas fa-fw fa-wrench"></i>
-          <span>Utilities</span>
-        </a>
-        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Custom Utilities:</h6>
-            <a class="collapse-item" href="utilities-color.html">Colors</a>
-            <a class="collapse-item" href="utilities-border.html">Borders</a>
-            <a class="collapse-item" href="utilities-animation.html">Animations</a>
-            <a class="collapse-item" href="utilities-other.html">Other</a>
-          </div>
-        </div>
-      </li>
-
-      <!-- Divider -->
-      <hr class="sidebar-divider">
-
-      <!-- Heading -->
-      <div class="sidebar-heading">
-        Addons
-      </div>
-
-      <!-- Nav Item - Pages Collapse Menu -->
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
-          <i class="fas fa-fw fa-folder"></i>
-          <span>Pages</span>
-        </a>
-        <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Login Screens:</h6>
-            <a class="collapse-item" href="login.html">Login</a>
-            <a class="collapse-item" href="register.html">Register</a>
-            <a class="collapse-item" href="forgot-password.html">Forgot Password</a>
-            <div class="collapse-divider"></div>
-            <h6 class="collapse-header">Other Pages:</h6>
-            <a class="collapse-item" href="404.html">404 Page</a>
-            <a class="collapse-item" href="blank.html">Blank Page</a>
-          </div>
-        </div>
-      </li>
-
-      <!-- Nav Item - Charts -->
-      <li class="nav-item">
-        <a class="nav-link" href="charts.html">
-          <i class="fas fa-fw fa-chart-area"></i>
-          <span>Charts</span></a>
-      </li>
-
-      <!-- Nav Item - Tables -->
-      <li class="nav-item">
-        <a class="nav-link" href="tables.html">
-          <i class="fas fa-fw fa-table"></i>
-          <span>Tables</span></a>
-      </li>
 
       <!-- Divider -->
       <hr class="sidebar-divider d-none d-md-block">
@@ -201,23 +132,6 @@
 
           </div>
 
-            <!-- Earnings (Monthly) Card Example; This is the reference for the card view in Javascript found below in this file-->
-            <div class="col" id="cardView" style="display: none;">
-              <div class="card border-left-primary shadow h-100 py-2">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <p>Possible plant to be discovered in county</p>
-                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Earnings (Monthly)</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-calendar fa-2x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
 
 
 
@@ -371,33 +285,8 @@
 
 
 
-      // this._div.innerHTML = '<h4>density of AZ county population</h4>' +  (props ?
-      //   '<b>' + props.NAME + '</b><br />' + props.density2 + ' people / mi<sup>2</sup>'
-      //   : 'Hover over a county');
-
-      //var nameCounty = props.NAME;
-
-      //console.log(findings);
-
-      //console.log(findings.nameCounty);
-
-
     };
 
-    //info.addTo(map);
-
-
-    // get color depending on population density value
-    // function getColor(d) {
-    //   return d > 400  ? '#800026' :
-    //          d > 200  ? '#BD0026' :
-    //          d > 100  ? '#E31A1C' :
-    //          d > 50  ? '#FC4E2A' :
-    //          d > 25   ? '#FD8D3C' :
-    //          d > 10   ? '#FEB24C' :
-    //          d > 5   ? '#FED976' :
-    //                     '#FFEDA0';
-    // }
 
         function getColor(d) {
       return d > 2  ? '#900C3F' :
@@ -542,16 +431,7 @@
 
 
       console.log(findings[nameCounty][i]);
-      //   var node = document.createElement("li");
-      //   var textnode = document.createTextNode("\n" + findings[nameCounty][i]);
 
-
-        
-
-
-        
-
-      //   document.getElementById("listResults").appendChild(node);
       }
 
 
@@ -562,7 +442,6 @@
     function resetHighlight(e) {
       geojson.resetStyle(e.target);
       info.update();
-      //var hi = document.getElementById('hi').innerHTML = "!";
     }
 
     function zoomToFeature(e) {

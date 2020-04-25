@@ -207,6 +207,7 @@
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
+                      <p>Possible plant to be discovered in county</p>
                       <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Earnings (Monthly)</div>
                       <div class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
                     </div>
@@ -256,7 +257,7 @@
                 <div class="card-body">
                   <div class="chart-area">
                     <div id="map"></div>
-                    <div align="center"> <p style="color: black;"> <b>Hover over each county <b></p></div>
+                    <div align="center"> <p style="color: black;"> <b>Hover over each county to find cactae which are likely to occur in that county <b></p></div>
                   </div>
                 </div>
               </div>
@@ -492,6 +493,7 @@
        div7.setAttribute("class","h5 mb-0 font-weight-bold text-gray-800");
 
        var div6Text = document.createTextNode(findings[nameCounty][i]);
+       var div5Text = document.createTextNode("Possible plant to be discovered in " + nameCounty + "\n county");
 
        console.log("Name of image " +  dict_pictures[findings[nameCounty][i]] );
 
@@ -524,6 +526,7 @@
 
       div7.appendChild(img);
 
+      //div5.appendChild(div5Text)
        div5.appendChild(div6);
        div5.appendChild(div7);
 

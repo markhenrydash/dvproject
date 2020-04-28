@@ -211,6 +211,20 @@
                 </div>
               </div>
 
+                                    <!-- Earnings (Monthly) Card Example -->
+            <div class="col">
+              <div class="card border-left-success shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Counties containing this rule</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800" id = "display_counties"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
 
           </div>
 
@@ -239,6 +253,8 @@
               </div>
             </div>
           </div>
+
+
 
           <!-- Content Row -->
           <div class="row">
@@ -497,6 +513,29 @@ function abcd(val) {
   val--;
   allSame();
   m = county[val];
+
+  var stringEmpty = '';
+
+  var county_display = document.getElementById("display_counties");
+
+  county_display.innerHTML = "";
+
+  for (var im = 0; im < m.length; im++) {
+      var node1 = document.createElement('br');
+      var node2 = document.createElement('br');
+
+      var capitalCountyName = m[im].charAt(0).toUpperCase() + m[im].slice(1);
+
+      var textNode = document.createTextNode(capitalCountyName);
+
+      county_display.appendChild(textNode);
+      county_display.appendChild(node1);
+
+
+
+  }
+
+
 
   console.log(m);
 

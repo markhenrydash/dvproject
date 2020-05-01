@@ -27,21 +27,21 @@ counties_dict = {'apache': {'Sidalcea neomexicana': 12, 'Opuntia polyacantha var
 
 
 
-counties_len = [6893,
- 6422,
- 3738,
- 2622,
- 2463,
- 2364,
- 1599,
- 1490,
- 1157,
- 717,
- 623,
- 555,
- 351,
- 343,
- 215];
+counties_len = [13958,
+ 9576,
+ 6286,
+ 4343,
+ 3891,
+ 3593,
+ 2952,
+ 2564,
+ 1980,
+ 1006,
+ 986,
+ 963,
+ 612,
+ 470,
+ 334];
 
  counties_list = ['coconino',
  'maricopa',
@@ -155,7 +155,7 @@ var myBarChart = new Chart(ctx, {
       yAxes: [{
         ticks: {
           min: 0,
-          max: 8000,
+          max: 16000,
           maxTicksLimit: 10,
           padding: 10,
           // Include a dollar sign in the ticks

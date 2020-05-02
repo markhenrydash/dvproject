@@ -1,7 +1,7 @@
 function form() {
     let form = document.getElementById('form')
     form.innerHTML += "<option style='text-align:center' disabled selected value> -- select an option -- </option>"
-    for (let i = 2009; i < 2020; i++) {
+    for (let i = 2009; i < 2019; i++) {
         console.log(form.innerHTML)
         form.innerHTML += "<option style='text-align:center' value="+i.toString()+">"+i.toString()+"</option>"
     }
